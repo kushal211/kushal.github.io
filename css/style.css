@@ -7,6 +7,15 @@ body {
   background: #fff;
 }
 
+@media (max-width: 921px) {
+  body {
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 20px;
+  }
+}
+
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -316,7 +325,7 @@ main, aside {
   width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 840px) {
   main, aside {
     width: 50%;
   }
@@ -329,7 +338,7 @@ aside {
   position: relative;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 840px) {
   aside {
     height: 100vh;
     position: fixed;
@@ -351,7 +360,7 @@ main {
   position: absolute;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 840px) {
   .home-button {
     display: block;
   }
